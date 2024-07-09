@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    
+  }
+  
+  .tamagotchi {
+    background-color: #CCD014;
+    border: 5px solid #145CD0;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 50px;
+  }
+  
+  .stats {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .img {
+height: 200px;
+width: 200px;
+padding: 15px;
+
+
+  }

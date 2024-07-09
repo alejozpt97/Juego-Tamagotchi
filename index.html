@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamagotchi Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="tamagochi.jpeg">
+</head>
+<body>
+  <div class="tamagotchi">
+    <h1>Tamagotchi</h1>
+    <div class = "img">
+        <img src="tamagochi.jpeg" alt="Tamagotchi">
+       
+    </div>
+    
+    <div class="stats">
+      <p>Hambre: <span id="hunger">50</span></p>
+      <p>Felicidad: <span id="happiness">50</span></p>
+      <p>Salud: <span id="health">50</span></p>
+    </div>
+
+    <button onclick="feed()">Alimentar</button>
+    <button onclick="play()">Jugar</button>
+    <button onclick="heal()">Curar</button>
+  </div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
